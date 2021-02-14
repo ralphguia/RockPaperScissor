@@ -25,6 +25,10 @@ class TitleFragment : Fragment() {
             view.findNavController().navigate(R.id.action_titleFragment_to_helpFragment)
         }
 
+        binding.buttonOptions.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_titleFragment_to_optionsFragment)
+        }
+
         return binding.root
     }
 

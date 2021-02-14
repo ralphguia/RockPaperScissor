@@ -12,10 +12,17 @@
         <action
             android:id="@+id/action_titleFragment_to_helpFragment"
             app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_titleFragment_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
     </fragment>
     <fragment
         android:id="@+id/helpFragment"
         android:name="com.example.rockpaperscissor.HelpFragment"
         android:label="fragment_help"
         tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.example.rockpaperscissor.OptionsFragment"
+        android:label="OptionsFragment" />
 </navigation>
